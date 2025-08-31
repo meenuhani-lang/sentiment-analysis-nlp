@@ -1,9 +1,14 @@
-This project is a Sentiment Analysis Web App built using Gradio and Natural Language Processing (NLP) techniques.
-It takes in a movie review (or any text) and predicts whether the sentiment is Positive 😀 or Negative 😡.
+# 🎭 Sentiment Analysis NLP App
 
-->Dataset: Built-in NLTK movie_reviews dataset
-->Model: TF-IDF Vectorizer + Logistic Regression
-->Accuracy: ~85–90% on test data
-->UI: Interactive Gradio interface (runs in Google Colab or locally)
+This project is a simple **NLP web app** that predicts whether a movie review is **Positive 😀** or **Negative 😡**.
 
-This app shows how NLP can be applied to understand opinions from text in a simple and user-friendly way.
+It uses the built-in NLTK `movie_reviews` dataset with **TF-IDF + Logistic Regression**.
+
+---
+
+## 🚀 How to Run Locally
+
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/your-username/sentiment-analysis-nlp.git
+   cd sentiment-analysis-nlp
